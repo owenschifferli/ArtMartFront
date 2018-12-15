@@ -22,12 +22,6 @@ nav {
     border: none;
 }
 
-.menu ul li a:hover {
-    text-decoration: none;
-    text-shadow: none;
-    color: #37a823;
-}
-
 .menu a.current {
     font-style: italic;
     color:#37a823;
@@ -43,7 +37,13 @@ nav {
     border-bottom: solid #c1c5cc 1px;
 }
 
-.is-current {
-    color:#37a823;
+.active {
+    font-style: italic;
+}
+
+.menu ul li a:hover {
+    text-decoration: none;
+    text-shadow: none;
+    color: #37a823;
 }
 
