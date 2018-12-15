@@ -1,0 +1,30 @@
+.buttons {
+	padding-top: 19px;
+	padding-left: 10px;
+	padding-right: 5px;
+}
+
+div input[type=submit] {
+	width: 25px;
+	height: 25px;
+	border: none;
+	color: transparent;
+	font-size: 0
+}
+
+div input[type=submit]:hover {
+	width: 28px;
+	height: 28px;
+}
+
+#favorite {
+    background: url("../images/plus.png") no-repeat center center;
+}
+
+#buy {
+    background: url("../images/cart.png") no-repeat center center;
+}
+
+#share {
+	background: url("../images/share.png") no-repeat center center;
+}

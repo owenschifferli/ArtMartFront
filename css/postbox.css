@@ -1,0 +1,48 @@
+.postbox {
+    display: grid;
+    width: 45%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+header, footer {
+	border: 1px solid rgba(0,0,0,.125);
+	box-shadow: 0 1px 5px rgba(0,0,0,.125);
+    padding: 1px;
+    background-color: #ffffff;
+}
+
+.artist {
+    font-family: 'Noto Serif SC', serif;
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    padding-bottom: 5px;
+}
+
+.artname {
+    font-size: 34px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+span {
+    justify-content: space-between;
+}
+
+footer {
+    padding: 20px;
+    padding-top: 0px;
+} 
+
+.flex_row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex_column {
+    display: flex;
+    flex-direction: column;
+}

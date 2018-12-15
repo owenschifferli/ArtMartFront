@@ -1,0 +1,49 @@
+nav {
+    background-color:#1c1c1c;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.menu ul li {
+    font-family: "Cinzel", "sans serif";
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.menu ul li a {
+    text-decoration: none;
+    color:#c1c5cc;
+    padding: 15px;
+    border: none;
+}
+
+.menu ul li a:hover {
+    text-decoration: none;
+    text-shadow: none;
+    color: #37a823;
+}
+
+.menu a.current {
+    font-style: italic;
+    color:#37a823;
+}
+
+#home {
+    margin-right: 80px;
+    border-bottom: solid #c1c5cc 1px;
+}
+
+#signup {
+    margin-left: 80px;
+    border-bottom: solid #c1c5cc 1px;
+}
+
+.is-current {
+    color:#37a823;
+}
+

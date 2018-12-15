@@ -1,0 +1,59 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ART MART</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/navigation.css">
+    <link rel="stylesheet" href="css/jquery.bxslider.css">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel|Cormorant+Garamond:300,400|Dosis|Noto+Serif+SC|Poppins"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <nav class="menu">
+            <ul>
+                <li id="home">
+                    <a href="index.html">ART MART</a>
+                </li>
+                <li>
+                    <a href="discover.html">Discover</a>
+                </li>
+                <li>
+                    <a href="artists.html">Artists</a>
+                </li>
+                <li>
+                    <a href="collection.html">Collection</a>
+                </li>
+                <li id="signup">
+                    <a href="signup.html">Sign Up</a>
+                </li>
+            </ul>
+        </nav>
+    <div class="slideshow">
+            <ul class="bxslider">
+                <li>
+                    <img src="images/elon-slider.jpg" alt="Elon Musk">
+                </li>
+                <li>
+                    <img src="images/alan-slider.jpg" alt="Alan Turing">
+                </li>
+                <li>
+                    <img src="images/frida-slider.jpg" alt="Frida Kahlo">
+                </li>
+                <li>
+                    <img src="images/muhammed-slider.jpg" alt="Muhammed Ali">
+                </li>
+            </ul>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/slider.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.bxslider').bxSlider();
+        });
+    </script>
+</body>
